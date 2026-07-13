@@ -9,7 +9,7 @@ const translations = {
     featured: '精选项目', photography: '摄影作品',
     roles: ['攻读 PhD 中', 'HCI 研究者', '全栈开发工程师', '胶片摄影爱好者', '爵士吉他手'],
     codeLabel: 'Skills', slogan: 'Code is only my tool, Emotion is what I create.',
-    contactLabel: '联系我', source: '本站源码', location: '东京 · 日本',
+    contactLabel: '联系我', source: '在 GitHub 仓库中查看', location: '东京 · 日本',
     projects: [
       ['XerFilmlab', 'Film Photography & Archive Platform', '以胶片摄影为核心的个人厂牌与数字化整理平台。除了展示胶片、人像、街头摄影和宝丽来作品，也用于管理胶卷、相册、拍摄信息、器材与扫描文件，让拍摄、冲洗、扫描、归档和展示形成完整的胶片工作流。', 'Film Photography · Film Archive · Gallery · Analog Workflow', '研究需要，展示不公开', ''],
       ['六爻纳甲起卦', 'A Modern I Ching Divination Experience', '一款将传统《周易》起卦过程转化为现代交互体验的应用。用户提出问题后，通过三枚硬币完成纳甲筮法中的铜钱起卦，生成六爻卦象并解读本卦、变爻与变卦。它既可用于日常占问，也是一种带有仪式感的随机生成与符号解码工具，可服务于谜题、叙事、创作灵感与信息解密。', 'I Ching · Six Lines · Divination · Interaction · Symbolic Decoding', 'App Store 尚未发布', ''],
@@ -23,7 +23,7 @@ const translations = {
     featured: '注目のプロジェクト', photography: '写真作品',
     roles: ['PhD取得に向けて勉強中', 'HCI研究者', 'フルスタックエンジニア', 'フィルム写真愛好家', 'ジャズギタリスト'],
     codeLabel: 'Skills', slogan: 'Code is only my tool, Emotion is what I create.',
-    contactLabel: '連絡先', source: 'サイトのソース', location: '東京 · 日本',
+    contactLabel: '連絡先', source: 'GitHubリポジトリで見る', location: '東京 · 日本',
     projects: [
       ['XerFilmlab', 'Film Photography & Archive Platform', 'フィルム写真を軸にした個人ブランド兼デジタルアーカイブ基盤です。フィルム、ポートレート、ストリート、ポラロイド作品を展示するだけでなく、ロール、アルバム、撮影情報、機材、スキャンデータを管理し、撮影から現像、スキャン、整理、公開までを一つのワークフローとしてつなぎます。', 'Film Photography · Film Archive · Gallery · Analog Workflow', '研究上の理由により非公開', ''],
       ['六爻見', 'A Modern I Ching Divination Experience', '伝統的な『易経』の卦立てを、現代的なインタラクションへ変換するアプリです。問いを決めた後、三枚の硬貨で六爻の卦を立て、本卦・変爻・之卦を読み解きます。日常の占いに加え、儀式性を備えたランダム生成と記号解読の道具として、謎解き、物語、創作、情報の暗号化にも活用できます。', 'I Ching · Six Lines · Divination · Interaction · Symbolic Decoding', 'App Store 未公開', ''],
@@ -37,7 +37,7 @@ const translations = {
     featured: 'Selected projects', photography: 'Photography',
     roles: ['Pursuing a PhD', 'HCI Researcher', 'Full-stack Developer', 'Film Photography Enthusiast', 'Jazz Guitarist'],
     codeLabel: 'Skills', slogan: 'Code is only my tool, Emotion is what I create.',
-    contactLabel: 'Contact', source: 'Site source', location: 'Tokyo · Japan',
+    contactLabel: 'Contact', source: 'View on GitHub', location: 'Tokyo · Japan',
     projects: [
       ['XerFilmlab', 'Film Photography & Archive Platform', 'A personal film photography label and digital archive platform. Beyond presenting film, portrait, street, and Polaroid work, it manages rolls, albums, shooting metadata, equipment, and scans—connecting shooting, developing, scanning, archiving, and publishing into one complete analog workflow.', 'Film Photography · Film Archive · Gallery · Analog Workflow', 'Private for research purposes', ''],
       ['LineSight', 'A Modern I Ching Divination Experience', 'An application that transforms the traditional I Ching divination process into a modern interactive experience. Users frame a question, cast three coins to form a six-line hexagram, and interpret the original hexagram, changing lines, and resulting hexagram. It also works as a ritualized system for random generation and symbolic decoding in puzzles, narratives, creative prompts, and information ciphers.', 'I Ching · Six Lines · Divination · Interaction · Symbolic Decoding', 'Not yet available on the App Store', ''],
@@ -179,7 +179,7 @@ onMounted(() => {
     <footer>
       <p>© 2026 RexKing624</p>
       <p>{{ t.location }}</p>
-      <div><a class="source-placeholder" href="#" @click.prevent>{{ t.source }} <span>↗</span></a></div>
+      <div><a class="source-placeholder" href="https://github.com/RexKing624/PersonalWebsite" target="_blank" rel="noreferrer">{{ t.source }} <span>↗</span></a></div>
     </footer>
   </div>
 </template>

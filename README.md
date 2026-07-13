@@ -1,66 +1,136 @@
 # PersonalWebsite
 
-RexKing624 的个人网站，展示个人简介、开发项目、摄影入口与联系方式。
+[中文](#中文) · [日本語](#日本語) · [English](#english)
 
-## 技术栈
+XerGnik — Designer, Developer & Film Photographer.
 
-- [Vue 3](https://vuejs.org/)：页面组件与响应式状态
-- [Vite](https://vite.dev/)：本地开发与生产构建
-- 原生 CSS：响应式布局、深浅主题与滚动进入动画
-- Local Storage：保存语言和主题偏好
+## 中文
+
+RexKing624 的个人网站，用于展示个人简介、开发项目、摄影入口与联系方式。
+
+### 技术栈
+
+- Vue 3：组件与响应式状态
+- Vite：本地开发和生产构建
+- 原生 CSS：响应式布局、深浅主题和滚动动画
+- Local Storage：保存语言及主题偏好
 - Intersection Observer：实现只播放一次的项目进入动画
 
-## 网站功能
+### 功能
 
 - 中文、日文、英文三语切换
-- 根据浏览器语言自动选择初始语言，无法识别时使用英文
-- 默认深色主题，支持深浅主题切换
-- 个人介绍、Skills、社交账号与联系方式
-- 四个精选开发项目及对应截图、状态和外部链接
-- 独立摄影作品路径 `/photography`，目前为“施工中”占位页
+- 自动检测浏览器语言，无法识别时使用英文
+- 默认深色主题，可切换并保存主题偏好
+- 个人介绍、Skills、社交账号和联系方式
+- 四个精选开发项目及截图、状态和外部链接
+- `/photography` 摄影作品占位页
 - 桌面端与移动端响应式布局
-- 尊重系统的“减少动态效果”设置
+- 支持系统“减少动态效果”设置
 
-## 本地开发流程
+### 本地运行与构建
 
-要求：Node.js 18 或更高版本。
+需要 Node.js 18 或更高版本。
 
 ```bash
 npm install
 npm run dev
 ```
 
-浏览器打开 Vite 输出的本地地址即可预览。编辑 `src/` 中的 Vue 组件或样式后，页面会自动更新。
-
-## 构建流程
+生成生产版本：
 
 ```bash
 npm run build
-```
-
-生产文件会生成在 `dist/` 目录。需要在本地检查生产版本时：
-
-```bash
 npm run preview
 ```
 
-## 项目结构
+## 日本語
 
-```text
-├── public/assets/          # Logo、人物照片与项目截图
-├── src/App.vue             # 主页内容、三语文案与交互逻辑
-├── src/PhotographyPage.vue # 摄影作品占位页
-├── src/style.css           # 全站视觉、主题与响应式样式
-├── src/main.js             # Vue 入口
-└── vite.config.js          # Vite 配置
+RexKing624のプロフィール、開発プロジェクト、写真作品への入口、連絡先を掲載する個人サイトです。
+
+### 技術スタック
+
+- Vue 3：コンポーネントとリアクティブな状態管理
+- Vite：ローカル開発と本番ビルド
+- Native CSS：レスポンシブレイアウト、ライト／ダークテーマ、スクロールアニメーション
+- Local Storage：言語とテーマ設定の保存
+- Intersection Observer：初回のみ再生されるプロジェクト表示アニメーション
+
+### 主な機能
+
+- 中国語、日本語、英語の3言語切り替え
+- ブラウザ言語の自動判定。判定できない場合は英語を使用
+- ダークテーマを標準とし、切り替えた設定を保存
+- プロフィール、Skills、SNSアカウント、連絡先
+- 4つの開発プロジェクトとスクリーンショット、公開状況、外部リンク
+- `/photography` の写真作品プレースホルダーページ
+- デスクトップ／モバイル対応
+- OSの「視差効果を減らす」設定に対応
+
+### ローカル実行とビルド
+
+Node.js 18以上が必要です。
+
+```bash
+npm install
+npm run dev
 ```
 
-## 内容更新
+本番ビルドを作成する場合：
 
-- 主页文案和项目资料：`src/App.vue`
-- 摄影页面：`src/PhotographyPage.vue`
-- 项目截图：`public/assets/projects/`
-- 全站样式：`src/style.css`
+```bash
+npm run build
+npm run preview
+```
+
+## English
+
+The personal website of RexKing624, featuring a profile, selected development projects, a photography entry point, and contact details.
+
+### Tech stack
+
+- Vue 3 for components and reactive state
+- Vite for local development and production builds
+- Native CSS for responsive layouts, themes, and scroll motion
+- Local Storage for language and theme preferences
+- Intersection Observer for one-time project reveal animations
+
+### Features
+
+- Chinese, Japanese, and English language switching
+- Automatic browser-language detection with English as the fallback
+- Dark theme by default with a persistent theme preference
+- Profile, skills, social accounts, and contact details
+- Four selected development projects with screenshots, availability, and external links
+- A `/photography` placeholder route for future photography work
+- Responsive desktop and mobile layouts
+- Support for the operating system’s reduced-motion preference
+
+### Local development and build
+
+Node.js 18 or newer is required.
+
+```bash
+npm install
+npm run dev
+```
+
+Create and preview a production build:
+
+```bash
+npm run build
+npm run preview
+```
+
+## Project structure
+
+```text
+├── public/assets/          # Logos, portrait, favicon, and project screenshots
+├── src/App.vue             # Homepage content, translations, and interactions
+├── src/PhotographyPage.vue # Photography placeholder page
+├── src/style.css           # Visual system, themes, and responsive styles
+├── src/main.js             # Vue entry point
+└── vite.config.js          # Vite configuration
+```
 
 ## License
 

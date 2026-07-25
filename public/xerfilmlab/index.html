@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>XerFilmLab for macOS</title>
+  <style>
+    :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; background: radial-gradient(circle at 30% 0,#29426e 0,transparent 42%),#11151d; color:#f4f6fa; }
+    main { width:min(860px,calc(100% - 40px)); margin:auto; padding:92px 0; }
+    .eyebrow { color:#9fb8ea; letter-spacing:.12em; text-transform:uppercase; font-size:12px; }
+    h1 { font-size:clamp(52px,9vw,92px); margin:12px 0 8px; letter-spacing:-.055em; }
+    .lead { max-width:680px; font-size:21px; line-height:1.5; color:#c7cfdd; }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; margin:34px 0 58px; }
+    a.button { color:#fff; text-decoration:none; padding:13px 20px; border-radius:12px; background:#3378f6; font-weight:650; }
+    a.secondary { background:#ffffff16; border:1px solid #ffffff24; }
+    section { border-top:1px solid #ffffff20; padding-top:26px; color:#aeb8c9; }
+    code { color:#dce5f5; } a { color:#82adff; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="eyebrow">Native macOS film workflow</div>
+    <h1>XerFilmLab</h1>
+    <p class="lead">Convert scanned color and black-and-white negatives, correct film base, retouch dust, crop, grade, and export—all in a non-destructive macOS workspace.</p>
+    <div class="actions">
+      <a class="button" href="downloads/XerFilmLab-0.1.0.dmg">Download XerFilmLab 0.1.0</a>
+      <a class="button secondary" href="XerFilmLab-0.1.0.html">Release notes</a>
+    </div>
+    <section>
+      <p>Requires macOS 14 or later. Current public preview: <code>0.1.0 (1)</code>.</p>
+      <p>XerFilmLab checks <a href="appcast.xml">the signed Sparkle AppCast</a> for secure updates.</p>
+    </section>
+  </main>
+</body>
+</html>

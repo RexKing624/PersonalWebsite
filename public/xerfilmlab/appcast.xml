@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>XerFilmLab</title>
+        <item>
+            <title>0.1.0</title>
+            <pubDate>Sun, 26 Jul 2026 05:18:18 +0900</pubDate>
+            <link>https://xergnik.com/xerfilmlab/</link>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:releaseNotesLink sparkle:edSignature="mgOmxjQ3Uk0bRExo8BdIc1KCCAy72xC81DufxQoFpaT+3HTdGVjteZBkph3YOULy731Z/4x/MUlclRlBAu+mBw==" sparkle:length="1466">https://xergnik.com/xerfilmlab/XerFilmLab-0.1.0.html</sparkle:releaseNotesLink>
+            <enclosure url="https://xergnik.com/xerfilmlab/XerFilmLab-0.1.0.zip" length="2619065" type="application/octet-stream" sparkle:edSignature="lU/CGqadE47Xdz5CAxLlpS62sduQHMMfxd/l3E9bwTVjudSyOlR1SDwRgGw4a0hcKsEKlG0iIGDfJMgdylsgCQ=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: s0zWJLzIvA2xZmVDjxca4j7AtGEl4VvlM5NVHag3wV0Hz5IumsXNO0dhOx9lomBApbkS5b1Lrmsc3BRMY+DnAw==
+length: 1322
+-->

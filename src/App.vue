@@ -12,7 +12,7 @@ const translations = {
     contactLabel: '联系我', source: '在 GitHub 仓库中查看', location: '东京 · 日本',
     projects: [
       ['XerFilmLab Web', 'Film Archive Management Web App', '面向胶片摄影工作流的 Web 管理系统，用于整理胶卷、相册、拍摄信息、器材、扫描文件与作品展示，让拍摄、冲洗、扫描、归档和发布形成可检索的数字档案。', 'Web App · Film Archive · Gallery · Analog Workflow', '研究需要，展示不公开', ''],
-      ['XerFilmLab for macOS', 'Native Film Negative Conversion Workflow', '一款原生 macOS 胶片负片去色罩与校色应用。从 RAW 和高位深扫描开始，依次完成片基提取、彩色或黑白负片转换、颜色与明暗调整、RGB 校正、除尘、齿孔、几何裁切、胶片元数据和预设保存。', 'macOS · SwiftUI · Negative Conversion · Color Workflow', '访问下载网页', 'https://lab.xergnik.com', '网站 GitHub', 'https://github.com/RexKing624/XerFilmLab-Website'],
+      ['XerFilmLab for macOS', 'Native Film Negative Conversion Workflow', '一款原生 macOS 胶片负片去色罩与校色应用。从 RAW 和高位深扫描开始，依次完成片基提取、彩色或黑白负片转换、颜色与明暗调整、RGB 校正、除尘、齿孔、几何裁切、胶片元数据和预设保存。', 'macOS · SwiftUI · Negative Conversion · Color Workflow', '下载', 'https://lab.xergnik.com', 'GitHub', 'https://github.com/RexKing624/XerFilmLab-Website'],
       ['六爻纳甲起卦', 'A Modern I Ching Divination Experience', '一款将传统《周易》起卦过程转化为现代交互体验的应用。用户提出问题后，通过三枚硬币完成纳甲筮法中的铜钱起卦，生成六爻卦象并解读本卦、变爻与变卦。它既可用于日常占问，也是一种带有仪式感的随机生成与符号解码工具，可服务于谜题、叙事、创作灵感与信息解密。', 'I Ching · Six Lines · Divination · Interaction · Symbolic Decoding', 'App Store 尚未发布', ''],
       ['EchoSpell', 'English Listening and Spelling Practice', '一款面向中文和日文用户的英语听音拼写练习工具，专门解决“会念、听得懂，但不会写”。用户可以使用系统单词表，也可以上传自己的单词表、文章或学习资料。系统提取词汇并播放发音，学习模式支持对照抄写，练习模式只播放读音并由用户完成拼写，同时结合释义、重复听音、错误记录与复习机制。', 'Listening · Spelling · English Learning · Chinese & Japanese Learners', '访问 EchoSpell', 'http://echospell.xergnik.com'],
       ['emotionChat', 'Local AI Persona Distillation Environment', '一个基于 Ollama、Express 与 Vue 3 搭建的本地 AI 聊天环境，用于从指定资料中蒸馏一个人的语言习惯、记忆、经历与表达方式。用户导入聊天记录、文字资料、人物背景和关系信息后，系统在本地构建对应的人格角色。项目关注人格如何由记忆与表达构成、AI 如何承载关系与情感投射，以及本地模型如何保护高度私密的个人资料。', 'Local AI · Persona Distillation · Memory · Digital Presence · Ollama', '查看 GitHub', 'https://github.com/RexKing624/emotionChat'],
@@ -27,7 +27,7 @@ const translations = {
     contactLabel: '連絡先', source: 'GitHubリポジトリで見る', location: '東京 · 日本',
     projects: [
       ['XerFilmLab Web', 'Film Archive Management Web App', 'フィルム写真のための Web 管理システムです。ロール、アルバム、撮影情報、機材、スキャンデータ、作品公開を整理し、撮影・現像・スキャン・アーカイブ・公開を検索可能なデジタル記録へまとめます。', 'Web App · Film Archive · Gallery · Analog Workflow', '研究上の理由により非公開', ''],
-      ['XerFilmLab for macOS', 'Native Film Negative Conversion Workflow', 'RAW や高ビット深度スキャンから始め、フィルムベース抽出、カラー／白黒ネガ変換、カラーとトーン、RGB 補正、ゴミ取り、パーフォレーション、クロップ、メタデータ、プリセット保存までを扱う macOS ネイティブアプリです。', 'macOS · SwiftUI · Negative Conversion · Color Workflow', 'ダウンロードページ', 'https://lab.xergnik.com', 'サイトの GitHub', 'https://github.com/RexKing624/XerFilmLab-Website'],
+      ['XerFilmLab for macOS', 'Native Film Negative Conversion Workflow', 'RAW や高ビット深度スキャンから始め、フィルムベース抽出、カラー／白黒ネガ変換、カラーとトーン、RGB 補正、ゴミ取り、パーフォレーション、クロップ、メタデータ、プリセット保存までを扱う macOS ネイティブアプリです。', 'macOS · SwiftUI · Negative Conversion · Color Workflow', 'ダウンロード', 'https://lab.xergnik.com', 'GitHub', 'https://github.com/RexKing624/XerFilmLab-Website'],
       ['六爻見', 'A Modern I Ching Divination Experience', '伝統的な『易経』の卦立てを、現代的なインタラクションへ変換するアプリです。問いを決めた後、三枚の硬貨で六爻の卦を立て、本卦・変爻・之卦を読み解きます。日常の占いに加え、儀式性を備えたランダム生成と記号解読の道具として、謎解き、物語、創作、情報の暗号化にも活用できます。', 'I Ching · Six Lines · Divination · Interaction · Symbolic Decoding', 'App Store 未公開', ''],
       ['EchoSpell', 'English Listening and Spelling Practice', '中国語・日本語話者向けの英語リスニング／スペリング練習ツールです。「発音でき、聞き取れるのに書けない」という課題に特化しています。内蔵単語帳に加え、単語リストや文章、学習資料をアップロード可能。学習モードでは見本を見ながら書き、練習モードでは音声だけを聞いて入力します。意味表示、再生、誤答記録、復習も組み合わせます。', 'Listening · Spelling · English Learning · Chinese & Japanese Learners', 'EchoSpellを見る', 'http://echospell.xergnik.com'],
       ['emotionChat', 'Local AI Persona Distillation Environment', 'Ollama、Express、Vue 3で構築するローカルAIチャット環境です。会話ログや文章、人物背景、関係性の情報から、その人の言語習慣、記憶、経験、表現を抽出し、ローカル環境に人格を再構成します。人格を形づくる記憶と表現、AIが担う関係や感情の投影、そして機密性の高い個人データをローカルモデルで守る方法を探ります。', 'Local AI · Persona Distillation · Memory · Digital Presence · Ollama', 'GitHubを見る', 'https://github.com/RexKing624/emotionChat'],
@@ -42,7 +42,7 @@ const translations = {
     contactLabel: 'Contact', source: 'View on GitHub', location: 'Tokyo · Japan',
     projects: [
       ['XerFilmLab Web', 'Film Archive Management Web App', 'A web-based management system for film photography workflows. It organizes rolls, albums, shooting details, equipment, scans, and published work—turning shooting, development, scanning, archiving, and presentation into a searchable digital record.', 'Web App · Film Archive · Gallery · Analog Workflow', 'Private for research purposes', ''],
-      ['XerFilmLab for macOS', 'Native Film Negative Conversion Workflow', 'A native macOS application for film-base removal and color correction. Starting from RAW or high-bit-depth scans, it covers film-base sampling, color and B&W negative conversion, color, tone and RGB correction, dust healing, sprockets, crop, film metadata, and reusable presets.', 'macOS · SwiftUI · Negative Conversion · Color Workflow', 'Download website', 'https://lab.xergnik.com', 'Website GitHub', 'https://github.com/RexKing624/XerFilmLab-Website'],
+      ['XerFilmLab for macOS', 'Native Film Negative Conversion Workflow', 'A native macOS application for film-base removal and color correction. Starting from RAW or high-bit-depth scans, it covers film-base sampling, color and B&W negative conversion, color, tone and RGB correction, dust healing, sprockets, crop, film metadata, and reusable presets.', 'macOS · SwiftUI · Negative Conversion · Color Workflow', 'Download', 'https://lab.xergnik.com', 'View GitHub', 'https://github.com/RexKing624/XerFilmLab-Website'],
       ['LineSight', 'A Modern I Ching Divination Experience', 'An application that transforms the traditional I Ching divination process into a modern interactive experience. Users frame a question, cast three coins to form a six-line hexagram, and interpret the original hexagram, changing lines, and resulting hexagram. It also works as a ritualized system for random generation and symbolic decoding in puzzles, narratives, creative prompts, and information ciphers.', 'I Ching · Six Lines · Divination · Interaction · Symbolic Decoding', 'Not yet available on the App Store', ''],
       ['EchoSpell', 'English Listening and Spelling Practice', 'A listening and spelling tool for Chinese- and Japanese-speaking English learners, built around a common gap: you can pronounce and understand a word, but cannot spell it. Learners can use built-in lists or upload vocabulary, articles, and study materials. Study mode supports guided copying; practice mode plays audio only and asks learners to type, with definitions, replay, error tracking, and review.', 'Listening · Spelling · English Learning · Chinese & Japanese Learners', 'Visit EchoSpell', 'http://echospell.xergnik.com'],
       ['emotionChat', 'Local AI Persona Distillation Environment', 'A local AI chat environment built with Ollama, Express, and Vue 3. It distills a person’s speech patterns, memories, experiences, and expression from conversations, writing, background, and relationship context, then reconstructs that persona locally. The project explores what makes a personality stable, how AI carries memory and emotional projection, and how local models protect deeply private material.', 'Local AI · Persona Distillation · Memory · Digital Presence · Ollama', 'View on GitHub', 'https://github.com/RexKing624/emotionChat'],
@@ -50,22 +50,17 @@ const translations = {
   },
 }
 
-const savedLanguage = localStorage.getItem('site-language')
 const browserLanguage = typeof navigator === 'undefined' ? '' : (navigator.language || '')
 const detectedLanguage = browserLanguage.toLowerCase().startsWith('zh')
   ? 'zh'
   : browserLanguage.toLowerCase().startsWith('ja') ? 'ja' : 'en'
-const language = ref(['zh', 'ja', 'en'].includes(savedLanguage) ? savedLanguage : detectedLanguage)
+const language = ref(detectedLanguage)
 const savedTheme = localStorage.getItem('site-theme')
 const theme = ref(savedTheme === 'light' ? 'light' : 'dark')
 const t = computed(() => translations[language.value])
 const imageSets = computed(() => [
   [`/assets/projects/xer-${language.value}.png`],
-  [
-    '/assets/projects/xerfilmlab-macos-zh.png',
-    '/assets/projects/xerfilmlab-macos-ja.png',
-    '/assets/projects/xerfilmlab-macos-en.png',
-  ],
+  [`/assets/projects/xerfilmlab-macos-${language.value}.png`],
   ['/assets/projects/linesight-1.png', '/assets/projects/linesight-2.png', '/assets/projects/linesight-3.png'],
   ['/assets/projects/echospell.png'],
   ['/assets/projects/emotionchat.png'],
@@ -84,7 +79,6 @@ const projects = computed(() => t.value.projects.map((project, index) => ({
 })))
 
 watch(language, (value) => {
-  localStorage.setItem('site-language', value)
   document.documentElement.lang = value === 'zh' ? 'zh-CN' : value === 'ja' ? 'ja' : 'en'
 }, { immediate: true })
 

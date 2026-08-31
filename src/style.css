@@ -56,7 +56,7 @@ html[data-theme='dark'] .mark { background: #f1efe8; }
 .reveal-project.is-visible { opacity: 1; transform: translateX(0); }
 .project-art { aspect-ratio: 1.42; position: relative; display: grid; place-items: center; overflow: hidden; padding: 0; background: transparent; transition: transform .4s ease; }
 .project:hover .project-art { transform: scale(.985); }
-.project-screenshot { display: block; width: 100%; height: 100%; object-fit: contain; }
+.project-screenshot { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: contain; }
 .screenshot-stack { display: flex; align-items: stretch; justify-content: space-between; gap: 1.2%; width: 100%; height: 100%; }
 .screenshot-stack img { display: block; width: 32.5%; height: 100%; object-fit: contain; }
 .project-copy > p:first-child { color: #6c6e68; font-size: 13px; }
@@ -65,11 +65,17 @@ html[data-theme='dark'] .mark { background: #f1efe8; }
 .project-tags { max-width: 460px; margin-top: 24px; color: var(--blue) !important; font-size: 11px; line-height: 1.7 !important; letter-spacing: .03em; }
 .project-action { display: inline-flex; gap: 44px; border-bottom: 1px solid; margin-top: 30px; padding-bottom: 5px; font-size: 13px; }
 .project-action span { color: var(--blue); }
-.project-actions { display: flex; flex-wrap: wrap; gap: 0 30px; }
+.project-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 18px 30px; margin-top: 38px; }
+.project-actions .project-action { gap: 24px; margin-top: 0; }
 .project-status { display: flex; align-items: center; gap: 10px; margin-top: 30px; color: var(--muted); font-size: 12px; }
 .project-status span { width: 6px; height: 6px; border-radius: 50%; background: var(--blue); }
 .project-copy a { display: inline-flex; gap: 60px; border-bottom: 1px solid; margin-top: 38px; padding-bottom: 5px; font-size: 14px; }
 .project-copy a span, .contact a span { color: var(--blue); }
+
+@media (min-width: 1000px) {
+  .project--triptych { grid-template-columns: minmax(300px, .85fr) minmax(0, 1.85fr); gap: clamp(36px, 5vw, 76px); }
+  .project--triptych .project-art { aspect-ratio: 1.3; }
+}
 
 .about { padding: 110px 0 160px; }
 .about > h2 { width: 100%; font-size: clamp(60px, 7.3vw, 110px); line-height: 1.05; white-space: nowrap; }

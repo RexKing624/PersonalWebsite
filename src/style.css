@@ -149,3 +149,9 @@ footer div { justify-self: end; display: flex; gap: 28px; }
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
   .reveal-project { opacity: 1; transform: none; }
 }
+
+/* Keep ONE ARCANA's existing wide triptych after the added film project. */
+@media (min-width: 1000px){.project--triptych .project-art{order:2}.project--triptych .project-copy{order:1}}
+.project--xerfilm .project-art{aspect-ratio:1.4286}.project--xerfilm .project-screenshot{border-radius:12px}
+
+@media (min-width:1000px){.project--xerfilm{grid-template-columns:minmax(300px,.9fr) minmax(0,1.5fr);gap:clamp(36px,5vw,76px)}}

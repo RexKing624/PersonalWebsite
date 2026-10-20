@@ -50,7 +50,8 @@ html[data-theme='dark'] .mark { background: #f1efe8; }
 .photography-link span { color: var(--blue); }
 .section-heading h2, .about h2 { font-family: 'Noto Serif SC', serif; font-weight: 500; font-size: clamp(42px, 5vw, 72px); line-height: 1.22; letter-spacing: -.04em; margin: 0; }
 .project { display: grid; grid-template-columns: 1.55fr 1fr; gap: clamp(40px, 7vw, 110px); align-items: center; margin-bottom: 120px; }
-.project:nth-of-type(odd) .project-art { order: 2; }
+.project:nth-of-type(even) { grid-template-columns: 1fr 1.55fr; }
+.project:nth-of-type(even) .project-art { order: 2; }
 .reveal-project { opacity: .86; transform: translateX(-24px); transition: opacity .55s ease var(--reveal-delay), transform .55s cubic-bezier(.22,.61,.36,1) var(--reveal-delay); }
 .reveal-project:nth-of-type(odd) { transform: translateX(24px); }
 .reveal-project.is-visible { opacity: 1; transform: translateX(0); }
@@ -120,7 +121,8 @@ footer div { justify-self: end; display: flex; gap: 28px; }
   .work { padding: 90px 0 80px; }
   .section-heading { grid-template-columns: 1fr auto; margin-bottom: 55px; }
   .project { grid-template-columns: 1fr; gap: 32px; margin-bottom: 80px; }
-  .project:nth-of-type(odd) .project-art { order: initial; }
+  .project:nth-of-type(even) { grid-template-columns: 1fr; }
+  .project:nth-of-type(even) .project-art { order: initial; }
   .project-copy h3 { margin: 20px 0 12px; }
   .about { padding: 90px 0; }
   .about > h2 { font-size: clamp(42px, 12vw, 72px); white-space: normal; }
@@ -151,7 +153,4 @@ footer div { justify-self: end; display: flex; gap: 28px; }
 }
 
 /* Keep ONE ARCANA's existing wide triptych after the added film project. */
-@media (min-width: 1000px){.project--triptych .project-art{order:2}.project--triptych .project-copy{order:1}}
 .project--xerfilm .project-art{aspect-ratio:1.4286}.project--xerfilm .project-screenshot{border-radius:12px}
-
-@media (min-width:1000px){.project--xerfilm{grid-template-columns:minmax(300px,.9fr) minmax(0,1.5fr);gap:clamp(36px,5vw,76px)}}

@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "postbuild": "mkdir -p dist/photography && cp dist/index.html dist/404.html && cp dist/index.html dist/photography/index.html",
+    "postbuild": "mkdir -p dist/photography dist/support && cp dist/index.html dist/404.html && cp dist/index.html dist/photography/index.html && cp dist/index.html dist/support/index.html",
     "preview": "vite preview"
   },
   "dependencies": {

@@ -1,6 +1,7 @@
 <script setup>
 import { computed, onMounted, ref, watch } from 'vue'
 import PhotographyPage from './PhotographyPage.vue'
+import SupportPage from './SupportPage.vue'
 
 const translations = {
   zh: {
@@ -91,7 +92,9 @@ watch(theme, (value) => {
 }, { immediate: true })
 
 const scrollToWork = () => document.querySelector('#work')?.scrollIntoView({ behavior: 'smooth' })
-const isPhotographyPage = window.location.pathname.replace(/\/$/, '') === '/photography'
+const currentPath = window.location.pathname.replace(/\/$/, '')
+const isPhotographyPage = currentPath === '/photography'
+const isSupportPage = currentPath === '/support'
 
 onMounted(() => {
   const items = document.querySelectorAll('.reveal-project')
@@ -114,6 +117,7 @@ onMounted(() => {
 
 <template>
   <PhotographyPage v-if="isPhotographyPage" />
+  <SupportPage v-else-if="isSupportPage" />
   <div v-else class="page-shell">
     <header class="nav">
       <a class="mark" href="#top" :aria-label="t.home"><img :src="theme === 'light' ? '/assets/logo-w.png' : '/assets/logo-b.png'" alt="Rex" /></a>
